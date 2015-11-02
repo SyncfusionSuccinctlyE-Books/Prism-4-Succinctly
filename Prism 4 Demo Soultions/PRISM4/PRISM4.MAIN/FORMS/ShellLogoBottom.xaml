@@ -1,0 +1,124 @@
+﻿
+<Window 
+    
+    x:Class="PRISM4.MAIN.FORMS.ShellLogoBottom"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    
+    xmlns:prism="http://www.codeplex.com/prism"
+    
+    xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+    
+    Title="Virtual Calculator 1.0.0" 
+    Height="auto" 
+    Width="auto" 
+    WindowState="Maximized">
+
+    <Window.Background>
+        <ImageBrush 
+            ImageSource=
+            "/PRISM4.MAIN;component/IMAGES/Calculator.jpg"/>
+    </Window.Background>
+
+    <Grid 
+        Name="MainGrid" 
+        ShowGridLines="False">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition 
+                Height="*">
+            </RowDefinition>
+
+            <RowDefinition 
+                Height="auto">
+            </RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>           
+
+            <ColumnDefinition 
+                Width="8*">
+            </ColumnDefinition>
+
+            <ColumnDefinition 
+                Width="25*">
+            </ColumnDefinition>
+
+            <ColumnDefinition 
+                Width="63*">
+            </ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid 
+            Name="HeaderGrid" 
+            Grid.Row="1" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="3" 
+            Width="auto"
+            HorizontalAlignment="Stretch" 
+            Margin="5,10">
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition 
+                Width="auto">
+                </ColumnDefinition>
+
+                <ColumnDefinition 
+                Width="*">
+                </ColumnDefinition>               
+
+            </Grid.ColumnDefinitions>
+
+            <ContentControl 
+                Name="CompanyLogo" 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                Margin="0"
+                prism:RegionManager.RegionName="CompanyRegion">
+            </ContentControl>
+
+            <ContentControl 
+                Name="ApplicationLogo" 
+                Grid.Row="0" 
+                Grid.Column="1"                
+                Margin="0"
+                prism:RegionManager.RegionName="ApplicationRegion">
+            </ContentControl>
+            
+        </Grid>
+        
+        <Border BorderBrush="Red" 
+                BorderThickness="5" 
+                CornerRadius="5" 
+                Grid.Row="0" 
+                Grid.Column="2"                 
+                Margin="0,20,20,0" 
+                Opacity="0.7"
+                HorizontalAlignment="Stretch">
+
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="LightSteelBlue" Offset="0"/>
+                    <GradientStop Color="LightSteelBlue" Offset="1"/>
+                    <GradientStop Color="White" Offset="0.535"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <syncfusion:TabControlExt 
+                Name="MathControl" 
+                CloseButtonType="Hide" 
+                SelectOnCreatingNewItem="False"
+                prism:RegionManager.RegionName="MathRegion">
+            </syncfusion:TabControlExt>
+
+        </Border>
+
+    </Grid>
+
+</Window>
+

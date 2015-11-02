@@ -1,0 +1,148 @@
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe.config
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.exe
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Core.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.baml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.baml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\App.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN_MarkupCompile.cache
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.g.resources
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.Properties.Resources.resources
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.csproj.GenerateResource.Cache
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.csprojResolveAssemblyReference.cache
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\log4net.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTopMS.baml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTopMS.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe.config
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.exe
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Core.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.pdb
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.xml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.baml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.baml
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\App.g.cs
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN_MarkupCompile.cache
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.g.resources
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.Properties.Resources.resources
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.csproj.GenerateResource.Cache
+C:\Syncfusion Prism 4 Book Current\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\GeneratedInternalTypeHelper.g.cs
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe.config
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.exe
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.MAIN.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\log4net.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Unity.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.INFRASTRUCTURE.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Core.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.dll
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\PRISM4.INFRASTRUCTURE.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\log4net.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\LogoControl.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Drawing.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Expression.Interactions.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Microsoft.Practices.Unity.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Shared.Wpf.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\Syncfusion.Tools.Wpf.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\bin\Debug\System.Windows.Interactivity.xml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.csprojResolveAssemblyReference.cache
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.baml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.baml
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoBottom.g.cs
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\FORMS\ShellLogoTop.g.cs
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\App.g.cs
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN_MarkupCompile.cache
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.g.resources
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.Properties.Resources.resources
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.csproj.GenerateResource.Cache
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.exe
+P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.MAIN\obj\Debug\PRISM4.MAIN.pdb

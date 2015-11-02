@@ -1,0 +1,23 @@
+﻿<UserControl 
+    
+    x:Class="PRISM4.COMPANY_LOGO_MODULE.VIEWS.CompanyLogoView"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    
+    xmlns:Logo="clr-namespace:LogoControl;assembly=LogoControl"
+    
+    mc:Ignorable="d" 
+    Width="auto" 
+    Height="69">
+    
+    <Grid Margin="0,0,0,-9">
+
+        <Logo:CompanyLogoControl>            
+        </Logo:CompanyLogoControl>                  
+        
+    </Grid>
+    
+</UserControl>

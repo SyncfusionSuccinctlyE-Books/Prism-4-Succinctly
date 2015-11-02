@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.UNIT_TEST\bin\Debug\PRISM4.UNIT_TEST.dll" total="157" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2013-10-05" time="16:14:12">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.6407" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="PT_DEVELOPMENT" user="ptech_000" user-domain="PT_DEVELOPMENT" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="P:\Syncfusion Books\Prism 4 Book\Prism 4 Demo Solutions\PRISM4\PRISM4.UNIT_TEST\bin\Debug\PRISM4.UNIT_TEST.dll" executed="True" result="Success" success="True" time="0.734" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PRISM4" executed="True" result="Success" success="True" time="0.719" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UNIT_TEST" executed="True" result="Success" success="True" time="0.719" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="MATH_MODULE_TESTS" executed="True" result="Success" success="True" time="0.719" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="CALCULATION_FORMULA_TESTS" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AddCalculationFormulaTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.AddASingleValueWithOutTotal" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.AddThreeKPlusFiveKPlusTenKPlusSixKWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.AddTwoKPlusFiveKWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.AddTwoPlusTwoWithOutTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.AddTwoPlusTwoWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.ConfirmThatAddFormulaExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.ConfirmThatFormulaValuesExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.AddCalculationFormulaTests.ConfirmThatLessThanOneValueIsInvalid" executed="True" result="Success" success="True" time="0.016" asserts="0" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SubtractCalculationFormulaTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.ConfirmThatAddFormulaExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.ConfirmThatFormulaValuesExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.ConfirmThatLessThanOneValueIsInvalid" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.Subtract100000MinusFiveKWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.SubtractASingleValueWithOutTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.SubtractFiveMinusTwoWithOutTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.SubtractFiveMinusTwoWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_FORMULA_TESTS.SubtractCalculationFormulaTests.SubtractTenKMinusFiveKWithTotal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="CALCULATION_TESTS" executed="True" result="Success" success="True" time="0.188" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="AddIntegerTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThat10KPlusTwoKIs12K" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatAddIntegerExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatBlankTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatBlankTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatConvertIntegerExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInteger32ConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInteger64ConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatIntegerStringsExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextOneAndTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextOneAndTextTwoValuesReturnTextOneExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInValidTextOneValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInValidTextTwoValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextValuesReturnAValueOfNegativeOne" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatInvalidTextValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatLessThanTwoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatMaxNegativeIntegerValuesInEachTextBoxIsNotValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatMoreThanTwoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatNegitaveTenPlusNegitaveTenIsNegitaveTwenty" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatNegitaveTenPlusTenIsZero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatNegitaveTwoKPlusNegitaveTwoKIsNegitaveFourK" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatNoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatnullTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatnullTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatOnlyTwoTextValuesWereEntered" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatTheMaxIntegerValuesInEachTextBoxIsNotValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatTwoPlusTwoIsFour" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatValidValuesReturnTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.AddIntegerTests.ConfirmThatZeroPlusZeroKIsZero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SubtractIntegerTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThat10KMinusTwoKIs12K" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatAddIntegerExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatBlankTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatBlankTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatConvertIntegerExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInteger32ConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInteger64ConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatIntegerStringsExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextOneAndTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextOneAndTextTwoValuesReturnTextOneExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextOneValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextTwoValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextValuesReturnAValueOfNegativeOne" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatInvalidTextValuesReturnExceptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatLessThanTwoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatMaxIntegerValuesInEachTextBoxIsValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatMoreThanTwoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatNegitaveFifteenMinusNegitaveTenIsNegitaveFive" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatNegitaveTenMinusTenIsNegativeTwenty" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatNegitaveTwoKMinusNegitaveTwoKIsZero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatNoTextValuesReturnFalse" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatnullTextOneValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatNullTextTwoValuesReturnfalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatOneHundredMinusTenIsNinty" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatOnlyTwoTextValuesWereEntered" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatOverflowIntegerValuesInEachTextBoxIsNotValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatOverflowNegativeIntegerValuesInEachTextBoxIsNotValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatValidValuesReturnTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.CALCULATION_TESTS.SubtractIntegerTests.ConfirmThatZeroMinusZeroKIsZero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="DESCRIPTION_TESTS" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="DescriptionTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatDescreiptionExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatDescreiptionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatDescriptionResultsExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionHandlesArgumentOutOfRangeException" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionReturnsAddTwoIntegersExceptionId" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionReturnsNonNullAddTwoIntegersResult" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionReturnsNonNullSubtractIntegersResult" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionReturnsSubtractIntegersDescriptionText" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.DESCRIPTION_TESTS.DescriptionTests.ConfirmThatGetDescriptionReturnsSubtractIntegersExceptionId" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="INTERGER_CONVERSION_TESTS" executed="True" result="Success" success="True" time="0.125" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="SignedInteger32BitConversionTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.ConvertIntegerExsits" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.ConvertStringToSigned32BitInteger" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueEqualsFalseWithInvalidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasAlphaIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasAlphaOnlyIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasBlankIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasCommaIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasMinusInWrongPositionIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.016" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasNegitaveOverflowIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasNonNumericIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasPositiveOverflowIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasValidLowerBoundsIsConvertedEqualsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueHasValidUpperBoundsIsConvertedEqualsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueIsFractionIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueIsNullIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfConvertedValueIsNumberAndLowerCaseAlphaIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfIsConvertedValueEqualsFalseWithInvalidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.IfIsConvertedValueEqualsTrueWithValidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.ReturnANonNullSigned32BitIntegerConversionResult" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger32BitConversionTests.Signed32BitIntegerConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="SignedInteger64BitConversionTests" executed="True" result="Success" success="True" time="0.063" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.ConvertIntegerExsits" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.ConvertStringToSigned32BitInteger" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueEqualsFalseWithInvalidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasAlphaIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasAlphaOnlyIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasBlankIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasCommaIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasMinusInWrongPositionIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasNegitaveOverflowIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasNonNumericIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasPositiveOverflowIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasValidLowerBoundsIsConvertedEqualsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueHasValidUpperBoundsIsConvertedEqualsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueIsFractionIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfConvertedValueIsNullIsConvertedEqualsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfIsConvertedValueEqualsFalseWithInvalidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.IfIsConvertedValueEqualsTrueWithValidValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.ReturnANonNullSigned64BitIntegerConversionResult" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.INTERGER_CONVERSION_TESTS.SignedInteger64BitConversionTests.Signed64BitIntegerConversionResultExists" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="STATUS_TESTS" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="StatusTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.STATUS_TESTS.StatusTests.IsStatusCalculatingTextReturned" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.STATUS_TESTS.StatusTests.IsStatusOkTextReturned" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="UPDATE_USER_INTERFACE_TESTS" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="UpdateUserInterfaceTests" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.UPDATE_USER_INTERFACE_TESTS.UpdateUserInterfaceTests.ConfirmTypeBothBlankOrClear" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                  <test-suite type="Namespace" name="VALIDATION_TESTS" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="ExceptionTests" executed="True" result="Success" success="True" time="0.031" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsCalculatorExceptionControllerClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsCollectionCleared" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsExceptionClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsExceptionResultCollectionClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsFirstExceptionResultAddedToCollection" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsTextInTheFirstCollectionResult" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.ExceptionTests.IsTheExceptionCountGreaterThanZero" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="Signed32BitIntegerValidationTests" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                        <results>
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesExceptionResultHaveExceptionIdValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithAlphaAndNumber" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithAlphaOnly" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithComma" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithFraction" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithNegativeOverflow" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithPositiveOverflow" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationFailWithSpecialCharacter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationResultHaveAValidLowerBoundsValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationResultHaveAValidUpperBoundsValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationResultHaveExceptionIdValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.DoesValidationResultHaveValidTextValue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.Is32BitIntegerValidationClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsANegitaveOneValueValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsAZeroValueValid" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsBlankExceptionTextValueReturnedWhenIsValidIsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsExceptionResultClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsIntegerValidationResultClassCreated" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsNegitaveOneExceptionIdValueReturnedWhenIsValidIsTrue" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsValidationExceptionReturnedWhentheIsValidatedValueIsFalse" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsValidationOk" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="PRISM4.UNIT_TEST.MATH_MODULE_TESTS.VALIDATION_TESTS.Signed32BitIntegerValidationTests.IsValidationResultReturned" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

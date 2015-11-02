@@ -1,0 +1,1043 @@
+﻿<syncfusion:TabItemExt  
+    
+    x:Class="PRISM4.MATH_MODULE.VIEWS.AddTwoView"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    
+    xmlns:syncfusion="http://schemas.syncfusion.com/wpf" 
+    
+    x:Name="AddTwo" 
+    mc:Ignorable="d" 
+    d:DesignWidth="300" 
+    Header="{Binding Path=TabHeaderText}" 
+    Height="auto">
+
+    <i:Interaction.Triggers>
+
+        <i:EventTrigger 
+            EventName="Loaded">
+
+            <i:InvokeCommandAction  
+                    Command="{Binding TabLoadedCommand}">
+            </i:InvokeCommandAction>
+
+        </i:EventTrigger>
+
+    </i:Interaction.Triggers>
+    
+    <Grid 
+        Name="MainGrid">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition 
+                Height="auto">
+            </RowDefinition>
+
+            <RowDefinition 
+                Height="auto">
+            </RowDefinition>
+
+            <RowDefinition 
+                Height="20*">
+            </RowDefinition>
+
+            <RowDefinition 
+                Height="auto">
+            </RowDefinition>
+
+            <RowDefinition 
+                Height="80*">
+            </RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition 
+                Width="40*">
+            </ColumnDefinition>
+
+            <ColumnDefinition 
+                Width="60*">
+            </ColumnDefinition>
+
+        </Grid.ColumnDefinitions>       
+
+        <!--***************************************************
+        ADD Interaction Behaviors here.
+        *******************************************************-->
+        <i:Interaction.Behaviors>
+
+            <ei:DataStateBehavior 
+                x:Name="TextBox1ExceptionBehavior"
+                Binding="{Binding TextBox1Exception}" 
+                Value="true" 
+                TrueState="TextBox1ExceptionStatusTrueState" 
+                FalseState="TextBox1ExceptionStatusFalseState">
+            </ei:DataStateBehavior>
+
+            <ei:DataStateBehavior 
+                x:Name="TextBox2ExceptionBehavior"
+                Binding="{Binding TextBox2Exception}" 
+                Value="true" 
+                TrueState="TextBox2ExceptionStatusTrueState" 
+                FalseState="TextBox2ExceptionStatusFalseState">
+            </ei:DataStateBehavior>
+
+            <ei:DataStateBehavior 
+                x:Name="BothTextBoxesBlankOrClearBehavior"
+                Binding="{Binding BothTextBoxesBlankOrClear}" 
+                Value="true" 
+                TrueState="BothTextBoxesBlankOrClearState">                 
+            </ei:DataStateBehavior>
+
+            <ei:DataStateBehavior 
+                x:Name="TextBox1HasValueBehavior"
+                Binding="{Binding TextBox1HasValue}" 
+                Value="true" 
+                TrueState="TextBox1HasValueState">                 
+            </ei:DataStateBehavior>
+
+            <ei:DataStateBehavior 
+                x:Name="TextBox1AndTextbox2HasValueBehavior"
+                Binding="{Binding TextBox1AndTextbox2HasValue}" 
+                Value="true" 
+                TrueState="TextBox1AndTextbox2HasValueState">                 
+            </ei:DataStateBehavior>
+
+        </i:Interaction.Behaviors>
+               
+        <!--***************************************************
+        Add Visual State Manager (VSM) groups here.
+        *******************************************************-->
+        <VisualStateManager.VisualStateGroups>
+
+            <VisualStateGroup 
+            x:Name="Exception1TextBoxStates">
+
+                <VisualState 
+                x:Name="TextBox1ExceptionStatusTrueState">
+                    
+                    <Storyboard>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="CalculateButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="ClearButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer1TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer2TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="Integer1TextBox" 
+                            To="White">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Background.Color" 
+                            Storyboard.TargetName="Integer1TextBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="StatusBorder" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusLabel" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="FormulaBorder" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaText" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaLabel" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusTextBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                    </Storyboard>
+                    
+                </VisualState>
+
+                <VisualState 
+                x:Name="TextBox1ExceptionStatusFalseState">
+
+                    <Storyboard>
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="Integer1TextBox" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Background.Color" 
+                            Storyboard.TargetName="Integer1TextBox" 
+                            To="White">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="StatusBorder" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusLabel" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="FormulaBorder" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaText" 
+                            To="Blue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaLabel" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusTextBox" 
+                            To="Blue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Black">
+                        </ColorAnimation>
+                    </Storyboard>
+
+                </VisualState>
+
+               
+            </VisualStateGroup>
+
+            <VisualStateGroup 
+            x:Name="TextBox2ExceptionStates">
+
+                <VisualState 
+                x:Name="TextBox2ExceptionStatusTrueState">
+
+                    <Storyboard>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="CalculateButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="ClearButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer1TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer2TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="Integer2TextBox" 
+                            To="White">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Background.Color" 
+                            Storyboard.TargetName="Integer2TextBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="StatusBorder" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusLabel" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="FormulaBorder" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaText" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaLabel" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusTextBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Red">
+                        </ColorAnimation>
+
+                    </Storyboard>
+
+                </VisualState>
+
+                <VisualState 
+                x:Name="TextBox2ExceptionStatusFalseState">
+
+                    <Storyboard>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="Integer2TextBox" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Background.Color" 
+                            Storyboard.TargetName="Integer2TextBox" 
+                            To="White">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="StatusBorder" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusLabel" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="BorderBrush.Color" 
+                            Storyboard.TargetName="FormulaBorder" 
+                            To="DarkBlue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaText" 
+                            To="Blue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="FormulaLabel" 
+                            To="Black">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="StatusTextBox" 
+                            To="Blue">
+                        </ColorAnimation>
+
+                        <ColorAnimation 
+                            Storyboard.TargetProperty="Foreground.Color" 
+                            Storyboard.TargetName="ContentGroupBox" 
+                            To="Black">
+                        </ColorAnimation>
+
+                    </Storyboard>
+
+                </VisualState>
+
+            </VisualStateGroup>
+
+            <VisualStateGroup                 
+            x:Name="EnabledStates">               
+                
+                <VisualState 
+                x:Name="BothTextBoxesBlankOrClearState">
+
+                    <Storyboard>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="CalculateButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="ClearButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer1TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer2TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                    </Storyboard>                   
+
+                </VisualState>                
+
+                <VisualState 
+                x:Name="TextBox1HasValueState">
+
+                    <Storyboard>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="CalculateButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="false">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="ClearButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer1TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer2TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                    </Storyboard>
+
+                </VisualState>
+
+                <VisualState 
+                x:Name="TextBox1AndTextbox2HasValueState">
+
+                    <Storyboard>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="CalculateButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="ClearButton">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer1TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                        <BooleanAnimationUsingKeyFrames 
+                            Storyboard.TargetProperty="IsEnabled"  
+                            Storyboard.TargetName="Integer2TextBox">
+
+                            <DiscreteBooleanKeyFrame 
+                                KeyTime="0" 
+                                Value="true">
+                            </DiscreteBooleanKeyFrame>
+
+                        </BooleanAnimationUsingKeyFrames>
+
+                    </Storyboard>
+
+                </VisualState>
+
+            </VisualStateGroup>
+
+        </VisualStateManager.VisualStateGroups>
+                        
+        <Border 
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.RowSpan="5"
+            BorderBrush="DarkBlue" 
+            BorderThickness="3" 
+            CornerRadius="5"  
+            Margin="10">
+
+            <ScrollViewer 
+                VerticalScrollBarVisibility="Auto">
+
+                <TextBlock 
+                    Name="HelpText" 
+                    Text="{Binding Path=DescriptionTextboxText}" 
+                    Height="auto" 
+                    Width="Auto" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    TextWrapping="WrapWithOverflow"
+                    FontWeight="Bold" 
+                    FontSize="16"
+                    Foreground="Blue"
+                    Padding="5">
+
+                    <TextBlock.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="LightSteelBlue" Offset="0"/>
+                            <GradientStop Color="LightSteelBlue" Offset="1"/>
+                            <GradientStop Color="White" Offset="0.556"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Background>
+
+                </TextBlock>
+
+            </ScrollViewer>
+
+        </Border>
+
+        <ScrollViewer
+            Grid.Row="0"
+            Grid.Column="1" 
+            VerticalScrollBarVisibility="Auto" 
+            Margin="0,0,5,0">
+
+            <GroupBox 
+                Name="ContentGroupBox"                 
+                BorderBrush="DarkBlue" 
+                BorderThickness="3"
+                Header="{Binding Path=GroupBoxHeaderText}"                  
+                FontWeight="Bold" 
+                Padding="2">
+
+                <GroupBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="LightSteelBlue" Offset="0"/>
+                        <GradientStop Color="LightSteelBlue" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.541"/>
+                    </LinearGradientBrush>
+                </GroupBox.Background>
+
+                <Grid 
+                    Name="CalculationGrid" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    Margin="5,10">
+
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition 
+                            Height="auto">
+                        </RowDefinition>
+
+                        <RowDefinition 
+                            Height="auto">
+                        </RowDefinition>
+
+                        <RowDefinition 
+                            Height="auto">
+                        </RowDefinition>
+
+                        <RowDefinition 
+                            Height="auto">
+                        </RowDefinition>
+
+                        <RowDefinition 
+                            Height="*">
+                        </RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition 
+                            Width="Auto">
+                        </ColumnDefinition>
+
+                        <ColumnDefinition 
+                            Width="*">
+                        </ColumnDefinition>
+
+                        <ColumnDefinition 
+                            Width="auto">
+                        </ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label 
+                        Name="Integer1Label" 
+                        Grid.Row="0" 
+                        Grid.Column="0" 
+                        FontWeight="Bold" 
+                        FontSize="14" 
+                        Content="Integer One: " 
+                        Margin="0,0,0,3">
+                    </Label>
+
+                    <TextBox 
+                        Name="Integer1TextBox" 
+                        Grid.Row="0" 
+                        Grid.Column="1"                         
+                        FontWeight="Bold" 
+                        FontSize="14" 
+                        HorizontalAlignment="Stretch" 
+                        VerticalAlignment="Stretch" 
+                        VerticalContentAlignment="Center" 
+                        Margin="0,0,0,3" 
+                        Text="{Binding Path=TextBoxOneText}">
+
+                        <i:Interaction.Triggers>
+                            
+                            <i:EventTrigger 
+                                EventName="TextChanged">
+                                
+                                <i:InvokeCommandAction  
+	                                Command="{Binding TextBoxOneTextChangedCommand}" 
+	                                CommandParameter="{Binding ElementName=Integer1TextBox, Path=Text}">
+                                </i:InvokeCommandAction>
+                                
+                            </i:EventTrigger>
+                            
+                        </i:Interaction.Triggers>
+
+                    </TextBox>
+
+                    <Label 
+                        Name="Integer2Label" 
+                        Grid.Row="1" 
+                        Grid.Column="0" 
+                        FontWeight="Bold" 
+                        FontSize="14" 
+                        Content="Integer Two: "  
+                        Margin="0,0,0,3">
+                    </Label>
+
+                    <TextBox 
+                        Name="Integer2TextBox" 
+                        Grid.Row="1" 
+                        Grid.Column="1"                        
+                        FontWeight="Bold" 
+                        FontSize="14" 
+                        HorizontalAlignment="Stretch" 
+                        VerticalAlignment="Stretch" 
+                        VerticalContentAlignment="Center" 
+                        Margin="0,0,0,3" 
+                        Text="{Binding Path=TextBoxTwoText}">
+
+                        <i:Interaction.Triggers>
+
+                            <i:EventTrigger 
+                                EventName="TextChanged">
+
+                                <i:InvokeCommandAction  
+	                                Command="{Binding TextBoxTwoTextChangedCommand}" 
+	                                CommandParameter="{Binding ElementName=Integer2TextBox, Path=Text}">
+                                </i:InvokeCommandAction>
+
+                            </i:EventTrigger>
+
+                        </i:Interaction.Triggers>
+
+                    </TextBox>
+
+                    <Label 
+                        Name="TotalLabel" 
+                        Grid.Row="2" 
+                        Grid.Column="0" 
+                        FontWeight="Bold" 
+                        FontSize="16" 
+                        Foreground="DarkBlue"
+                        Content="TOTAL: " 
+                        Margin="0,0,0,3">
+                    </Label>
+
+                    <TextBox 
+                        Name="TotalTextBox" 
+                        Grid.Row="2" 
+                        Grid.Column="1"                        
+                        FontWeight="Bold" 
+                        Foreground="DarkBlue"
+                        FontSize="16" 
+                        IsReadOnly="True" 
+                        HorizontalAlignment="Stretch" 
+                        HorizontalContentAlignment="Right"
+                        VerticalAlignment="Stretch" 
+                        Width="auto" 
+                        VerticalContentAlignment="Center" 
+                        Margin="0,0,0,3" 
+                        Text="{Binding Path=TextBoxTotalText}">
+
+                        <TextBox.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="LightSkyBlue" Offset="0"/>
+                                <GradientStop Color="LightSkyBlue" Offset="1"/>
+                                <GradientStop Color="White" Offset="0.544"/>
+                            </LinearGradientBrush>
+                        </TextBox.Background>
+
+                    </TextBox>
+
+                    <Button 
+                        Name="ClearButton" 
+                        Content="Clear" 
+                        Grid.Row="3" 
+                        Grid.Column="1"                         
+                        FontWeight="Bold" 
+                        Foreground="DarkBlue"
+                        FontSize="16" 
+                        Margin="0,5,0,0">
+
+                        <i:Interaction.Triggers>
+
+                            <i:EventTrigger 
+                                EventName="Click">
+
+                                <i:InvokeCommandAction  
+                                    Command="{Binding ClearButtonClickCommand}">
+                                </i:InvokeCommandAction>
+
+                            </i:EventTrigger>
+
+                        </i:Interaction.Triggers>
+                    </Button>
+
+                    <Button 
+                        Name="CalculateButton" 
+                        Content="Calculate" 
+                        Grid.Row="0" 
+                        Grid.Column="2"
+                        Grid.RowSpan="4"
+                        FontWeight="Bold" 
+                        Foreground="DarkBlue"
+                        FontSize="16" 
+                        Margin="5,0" 
+                        Padding="10" 
+                        IsDefault="True">
+
+                        <i:Interaction.Triggers>
+
+                            <i:EventTrigger 
+                                EventName="Click">
+
+                                <i:InvokeCommandAction  
+                                    Command="{Binding CalculateButtonClickCommand}">
+                                </i:InvokeCommandAction>
+
+                            </i:EventTrigger>
+
+                        </i:Interaction.Triggers>
+                    </Button>
+
+                </Grid>
+
+            </GroupBox>
+
+        </ScrollViewer>
+
+
+        <Label 
+            Name="FormulaLabel" 
+            Grid.Row="1" 
+            Grid.Column="1" 
+            FontWeight="Bold" 
+            FontSize="16" 
+            Foreground="Black"
+            Content="Formula: " 
+            Margin="0,0,5,5">
+        </Label>
+
+        <Border 
+            Name="FormulaBorder"
+            Grid.Column="1"
+            Grid.Row="2"
+            Grid.ColumnSpan="2"
+            BorderBrush="DarkBlue" 
+            BorderThickness="3" 
+            CornerRadius="5"  
+            Margin="0,0,5,5">
+
+            <ScrollViewer 
+                VerticalScrollBarVisibility="Auto">
+
+                <TextBlock 
+                    Name="FormulaText" 
+                    Text="{Binding Path=FormulaTextboxText}" 
+                    Height="auto" 
+                    Width="Auto" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                    TextWrapping="WrapWithOverflow"
+                    FontWeight="Bold" 
+                    FontSize="16"
+                    Foreground="Blue"
+                    Padding="5">
+
+                    <TextBlock.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="LightSteelBlue" Offset="0"/>
+                            <GradientStop Color="LightSteelBlue" Offset="1"/>
+                            <GradientStop Color="White" Offset="0.556"/>
+                        </LinearGradientBrush>
+                    </TextBlock.Background>
+
+                </TextBlock>
+
+            </ScrollViewer>
+
+        </Border>
+
+        <Label 
+            Name="StatusLabel" 
+            Grid.Row="3" 
+            Grid.Column="1" 
+            FontWeight="Bold" 
+            FontSize="16" 
+            Foreground="Black"
+            Content="Status: " 
+            Margin="0">
+        </Label>
+
+        <Border 
+            Name="StatusBorder"
+            Grid.Row="4" 
+            Grid.Column="1"  
+            Grid.ColumnSpan="2"
+            BorderBrush="DarkBlue" 
+            BorderThickness="3" 
+            CornerRadius="5"  
+            Margin="0,0,5,10">
+
+            <ScrollViewer 
+                    VerticalScrollBarVisibility="Auto">
+
+                <TextBox 
+                            Name="StatusTextBox"                         
+                            FontWeight="Bold" 
+                            Foreground="Black"
+                            FontSize="16" 
+                            IsReadOnly="True" 
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch" 
+                            Width="auto" 
+                            Height="auto"                                    
+                            Margin="0,0,0,3" 
+                            Text="{Binding Path=StatusTextboxText}" 
+                            TextWrapping="WrapWithOverflow">
+
+                    <TextBox.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="LightSteelBlue" Offset="0"/>
+                            <GradientStop Color="LightSteelBlue" Offset="1"/>
+                            <GradientStop Color="White" Offset="0.544"/>
+                        </LinearGradientBrush>
+                    </TextBox.Background>
+
+                </TextBox>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+
+</syncfusion:TabItemExt>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF4A5638-76FA-487F-B13C-09F1C55E16BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PRISM4.INFRASTRUCTURE</RootNamespace>
+    <AssemblyName>PRISM4.INFRASTRUCTURE</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>C:\DLL FILES\LOG4NET DLLS\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\DLL FILES\EXPRESSION DLLS\Microsoft.Expression.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\DLL FILES\EXPRESSION DLLS\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism">
+      <HintPath>C:\DLL FILES\PRISM 4.1 DLLS\Microsoft.Practices.Prism.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>C:\DLL FILES\PRISM 4.1 DLLS\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
+      <HintPath>C:\DLL FILES\PRISM 4.1 DLLS\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\DLL FILES\PRISM 4.1 DLLS\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Syncfusion.Core, Version=11.2045.0.25, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Wpf, Version=11.2045.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Wpf, Version=11.2045.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\DLL FILES\INTERACTION DLLS\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATE_SERVICE\AddIntegers.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATE_SERVICE\ICalculate.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATE_SERVICE\SubtractIntegers.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATION_FORMULA_SERVICE\AddFormula.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATION_FORMULA_SERVICE\IFormula.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\CALCULATION_FORMULA_SERVICE\SubtractFormula.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\EXCEPTION_SERVICES\CalculatorExceptionController.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\EXCEPTION_SERVICES\ExceptionResult.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\EXCEPTION_SERVICES\ICalculatorExceptionController.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\STRING_TO_INTEGER_CONVERTER_SERVICE\ConvertInteger.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\STRING_TO_INTEGER_CONVERTER_SERVICE\IConvertInteger.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\STRING_TO_INTEGER_CONVERTER_SERVICE\Signed32BitIntegerConversionResult.cs" />
+    <Compile Include="SERVICES\BUSINESS_SERVICES\STRING_TO_INTEGER_CONVERTER_SERVICE\Signed64BitIntegerConversionResult.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\DESCRIPTION_SERVICES\Description.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\DESCRIPTION_SERVICES\DescriptionResult.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\DESCRIPTION_SERVICES\IDescription.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\STATUS_SERVICE\CalculatingStatus.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\STATUS_SERVICE\IStatus.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\STATUS_SERVICE\OkStatus.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\IUpdateUIState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxOneAndTwoBlankOrClearState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxOneAndTwoExceptionState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxOneAndTwoHasValueState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxOneExceptionState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxOneHasValueState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\TextboxTwoExceptionState.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\UpdateSubtractionUserInterface.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\UPDATE USER INTERFACE SERVICES\UpdateUserInterface.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\VALIDATE_INTEGER_SERVICE\IValidateInteger.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\VALIDATE_INTEGER_SERVICE\IntegerValidationResult.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\VALIDATE_INTEGER_SERVICE\Validate32BitSignedInteger.cs" />
+    <Compile Include="SERVICES\UI_SERVICES\VALIDATE_INTEGER_SERVICE\Validate64BitSignedInteger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="COMMANDS\COMPOSITE_COMMANDS\" />
+    <Folder Include="COMMANDS\GLOBAL_COMMANDS\" />
+    <Folder Include="DATA_MODELS\DATA_ACCESS_LAYERS\" />
+    <Folder Include="DATA_MODELS\DATA_CONTEXTS\FLUENT_API_CLASSES\" />
+    <Folder Include="DATA_MODELS\DOMAIN_MODELS\" />
+    <Folder Include="EVENT_AGGREGATORS\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
